@@ -28,8 +28,8 @@ export default function Signup() {
 
   // handle Signup API Integration here
   const createAccount = () => {
-    // Perform API integration, including profilePicture in the data to be sent
-    // For example, you can use the FormData API for handling file uploads.
+    // where image upload logic will be handled here for now i do not have the skills for that 
+    // a simple read on docs should do the trivk 
   };
 
   return (
@@ -49,7 +49,7 @@ export default function Signup() {
             placeholder={field.placeholder}
           />
         ))}
-
+        
         <FormAction handleSubmit={handleSubmit} text="Signup" />
       </div>
     </form>

@@ -2,8 +2,9 @@ import React from 'react';
 import { Route, Navigate } from 'react-router-dom';
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
-  // Add your authentication logic here (e.g., check for a valid token)
-  const isAuthenticated = /* Check authentication logic */ true;
+  //this will be the section where i add in the logic to authenticate 
+  //the user for login
+  const isAuthenticated =  true;
 
   return (
     <Route
